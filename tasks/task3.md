@@ -21,6 +21,8 @@ index.html 파일을 열고 게임을 직접 실행해 봅시다.
 ### 정답
 
 (여기에 버그를 유발한 커밋의 id와 어떻게 하면 버그를 수정할 수 있는지 적어주세요.)
+(git shortlog로 확인후git checkout daebb7 하면 과거로 돌아가있음. git commit --amend 로 접속하여 added를 fixed로 수정.)
+(git shortlog로 확인후git rebase -i daebb756018ed433d7d5986efaef2bc56cc13188에서 edit로 변경후 닫기. git commit --amend로 커밋 내용 고치고 닫기. git rebase --continue하기)
 
 ### 힌트
 
